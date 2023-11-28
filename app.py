@@ -155,6 +155,6 @@ if __name__ == '__main__':
     if not os.path.exists(database_path):
         with app.app_context():
             build_sample_db()
-
+    print ("New change")
     # Start app
     app.run(host="0.0.0.0",port=8080)
